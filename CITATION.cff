@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying RITRO manuscript when using this software."
+title: "RITRO: intrinsic interpolation trust-region optimization"
+type: software
+version: 0.2.0
+date-released: 2026-11-14
+license: MIT
+authors:
+  - family-names: Hu
+    given-names: Wei
+  - family-names: Yuan
+    given-names: Ya-Xiang
+  - family-names: Xie
+    given-names: Pengcheng
+preferred-citation:
+  type: unpublished
+  title: "An intrinsic interpolation trust-region method for Riemannian derivative-free optimization"
+  authors:
+    - family-names: Hu
+      given-names: Wei
+    - family-names: Yuan
+      given-names: Ya-Xiang
+    - family-names: Xie
+      given-names: Pengcheng
+  year: 2026
+  notes: "Manuscript v3.9; no DOI or arXiv identifier assigned at packaging."

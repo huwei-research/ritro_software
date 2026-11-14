@@ -1,0 +1,34 @@
+{
+  "manuscript": "v3.9",
+  "figure_source": "scripts/figures_paper_v3_5.py",
+  "figure_source_sha256": "837d0969a0e6635d4b531c71ac37ccef35ae7de9a87cddd8214f153782f81a0f",
+  "data": {
+    "metrics.json": {
+      "source": "prototypes/transported_mfn/results/standard_three_tolerances_20261105/metrics.json",
+      "source_sha256": "b52e4d63971887034caa06c30d54b3f4e49135b9f126f97242450ba6e5c0814e",
+      "sha256": "febc4c6f02278cb21366a915703a8fe3e8c7e4b12c93225e33b269fdb62fc808",
+      "bytes": 1301405,
+      "records": 4860
+    },
+    "descent_records.json.gz": {
+      "source": "prototypes/transported_mfn/results/benchmark_descent_20261109/descent_records.json.gz",
+      "source_sha256": "3ec04096d400cffea233a260c15681099bbfa46a39c706f6e7688f734ce42e02",
+      "sha256": "48a960803c564fcb91ae1bb18082f487b739a3a1ab15f1b95b7f55f21b3ac74c",
+      "bytes": 6250134,
+      "records": 1620
+    },
+    "panda_results.json": {
+      "source": "prototypes/transported_mfn/results/panda_paper_campaign_v2_20261107/paper_bundle/results.json",
+      "source_sha256": "0a4312c75b607f8ab88f5e4618cfb74c97778b6564115de8658022cbf60f3ecb",
+      "sha256": "781986731ff5baf351220936235e7507e55b046e585d052ef02a21ad90b13c67",
+      "bytes": 711666,
+      "records": 30
+    }
+  },
+  "budgets": {
+    "total_data_bytes": 10485760,
+    "largest_input_bytes": 7340032,
+    "reader_python_peak_bytes": 134217728
+  },
+  "transformation": "Lossless JSON serialization, gzip with fixed timestamp, machine-local provenance prefixes replaced by research_results/. Numerical values and raw source hashes retained."
+}

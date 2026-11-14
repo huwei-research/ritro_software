@@ -1,0 +1,10 @@
+{
+  "rfd": [
+    "taminiaut/Extrinsic-Intrinsic-Riemannian-Finite-Difference-Method",
+    "d351efedb5ed1f599cb94144408df3fa22623d05"
+  ],
+  "rdse": [
+    "DamianoZeffiro/riemannian-ds",
+    "3b850ff913202a7de64441364076976e5320d168"
+  ]
+}

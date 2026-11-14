@@ -1,0 +1,383 @@
+{
+  "project": "ritro",
+  "source_root": "Research/ritro",
+  "exported_at": "2026-11-14T22:15:05.386751+08:00",
+  "status": "verified_for_publication",
+  "repository": "https://github.com/huwei-research/ritro_software",
+  "files": {
+    ".gitignore": {
+      "sha256": "9bb9f8060ed636992ff85e0d93271845f35a7f8871a41935325924b6c6dc47ad",
+      "bytes": 120,
+      "source": "Research/ritro/software/.gitignore"
+    },
+    "CITATION.cff": {
+      "sha256": "7279d07921e231a25ca2d78c7477545d308f9dd5a291a7905f99f60181e76fea",
+      "bytes": 782,
+      "source": "Research/ritro/software/CITATION.cff"
+    },
+    "LICENSE": {
+      "sha256": "c6cfb129975fd55243647b5528c0020990eefdfcc87a6ce0e016a4025fe64f0d",
+      "bytes": 1096,
+      "source": "Research/ritro/software/LICENSE"
+    },
+    "MANIFEST.in": {
+      "sha256": "0869ccf159ade5b35497d1010724c97eb1997aa09eb677a17c964ead953cb08e",
+      "bytes": 378,
+      "source": "Research/ritro/software/MANIFEST.in"
+    },
+    "MANIFEST.md": {
+      "sha256": "2bb4971935e9acb34cc86231339ba7d9fdf1a80809b6343da7e39a59b381a40c",
+      "bytes": 1648,
+      "source": "Research/ritro/software/MANIFEST.md"
+    },
+    "pyproject.toml": {
+      "sha256": "f675bc2091e1cbf347b165e99450da7a916ffee22874b075f76ded3407c20936",
+      "bytes": 1123,
+      "source": "Research/ritro/software/pyproject.toml"
+    },
+    "README.md": {
+      "sha256": "a4c069d1ea409f5526e2954c310ce2f4f9776ac69bf74a21ac2edd5458c7bd60",
+      "bytes": 4884,
+      "source": "Research/ritro/software/README.md"
+    },
+    "source_manifest.json": {
+      "sha256": "7fb976712d2c9aa767eb530e3e32853430edb87f781d133cc8c9427ac1ef1503",
+      "bytes": 15109,
+      "source": "Research/ritro/software/source_manifest.json"
+    },
+    "THIRD_PARTY.md": {
+      "sha256": "ce9b74d2fc791a37ef06d7a77d2245ce16d2ae6d35e8bd7480f938538d7ca7ec",
+      "bytes": 1799,
+      "source": "Research/ritro/software/THIRD_PARTY.md"
+    },
+    "benchmarks/additional_problems.py": {
+      "sha256": "838a7fe9befd6bdf912eea9b74142a3ccc25fb77ff43cf5e5d94aef8e31a5e76",
+      "bytes": 4331,
+      "source": "Research/ritro/software/benchmarks/additional_problems.py"
+    },
+    "benchmarks/dictionary.py": {
+      "sha256": "cb30c5201a8d312818c6bf992d0765dcfcf14f5101394992682a9b235c5e2ac9",
+      "bytes": 2077,
+      "source": "Research/ritro/software/benchmarks/dictionary.py"
+    },
+    "benchmarks/original_problems.py": {
+      "sha256": "02289268757dd93c2dec5400d07aeb6545d20e71e4d7d50991b381c9c8dfead6",
+      "bytes": 2751,
+      "source": "Research/ritro/software/benchmarks/original_problems.py"
+    },
+    "benchmarks/README.md": {
+      "sha256": "d4c42a81bbac9cacd71be996718739b7960d91f508b975f0c5742e55c0a434bd",
+      "bytes": 3104,
+      "source": "Research/ritro/software/benchmarks/README.md"
+    },
+    "benchmarks/run_benchmark.py": {
+      "sha256": "02f34c663fec292945fc1da8872d70fda279f1b164ce7dfea98fdd584c635040",
+      "bytes": 8348,
+      "source": "Research/ritro/software/benchmarks/run_benchmark.py"
+    },
+    "docs/manifolds.md": {
+      "sha256": "af5946fc08b1abb35fceea30bfe9f4466445e68d818be7127f1d304e873f5f26",
+      "bytes": 2190,
+      "source": "Research/ritro/software/docs/manifolds.md"
+    },
+    "docs/solver.md": {
+      "sha256": "2f1baaf722d1f12d6c3c364ee06c002874d60e8a8960a526412b4200c45e2c3a",
+      "bytes": 2562,
+      "source": "Research/ritro/software/docs/solver.md"
+    },
+    "examples/spd.py": {
+      "sha256": "80f5b5668ab8222110e2f42845234f96502959e4c4ebe0c6dadbe63b7c4cad39",
+      "bytes": 628,
+      "source": "Research/ritro/software/examples/spd.py"
+    },
+    "examples/sphere.py": {
+      "sha256": "b9a82bc2c6e13ab250cf587a6213e3ce0d7af6f4d3c39d6008220edd76c309ff",
+      "bytes": 615,
+      "source": "Research/ritro/software/examples/sphere.py"
+    },
+    "reproduction/expected_figures.json": {
+      "sha256": "51db46dc9995fa6b94c768fb42ca3d35b43b55dde1869cbfb2e535634d31ddf1",
+      "bytes": 58070,
+      "source": "Research/ritro/software/reproduction/expected_figures.json"
+    },
+    "reproduction/manifest.json": {
+      "sha256": "85b39628aff78f4919d218d42e370f3fb43452a184f3d47a29934bc8d141febe",
+      "bytes": 1632,
+      "source": "Research/ritro/software/reproduction/manifest.json"
+    },
+    "reproduction/plot_figures.py": {
+      "sha256": "990fc08436154c99e393fd5f183c85aac42fa4246662f1545e2fd7ec39771b62",
+      "bytes": 17560,
+      "source": "Research/ritro/software/reproduction/plot_figures.py"
+    },
+    "reproduction/publication.mplstyle": {
+      "sha256": "eba3001f346649a9e41d9ac1d56101abbae10aefecdad3be9530f4c9cd9269b3",
+      "bytes": 1822,
+      "source": "Research/ritro/software/reproduction/publication.mplstyle"
+    },
+    "reproduction/README.md": {
+      "sha256": "0088412f6a03acb473c347daebf4b7a6ebb72e98eea4ab78696377e1637607d7",
+      "bytes": 3387,
+      "source": "Research/ritro/software/reproduction/README.md"
+    },
+    "reproduction/validated_results.json": {
+      "sha256": "9125d90b3037b5d2a3cfb1efd5fc78548a6b8e6b0a071d070a89cc8b9550b63c",
+      "bytes": 11312,
+      "source": "Research/ritro/software/reproduction/validated_results.json"
+    },
+    "tests/test_api_validation.py": {
+      "sha256": "a8f216a2e7b9144f27f2d27e2c195cde6a9c1eb973e3980eda4499573c91d15f",
+      "bytes": 1674,
+      "source": "Research/ritro/software/tests/test_api_validation.py"
+    },
+    "tests/test_solver.py": {
+      "sha256": "99ff03574869a11986867ba6b9a7b4bcd83153dfd936d5f50ad470764450af7e",
+      "bytes": 2990,
+      "source": "Research/ritro/software/tests/test_solver.py"
+    },
+    "tools/verify_frozen_source.py": {
+      "sha256": "a3a5202fdfbcf4c43915edbb753cd847e565d5b0d49417e3a5c4e65c55428831",
+      "bytes": 4821,
+      "source": "Research/ritro/software/tools/verify_frozen_source.py"
+    },
+    "src/ritro/api.py": {
+      "sha256": "714ab724f71fededc3f9b7b624d0ea1e3d3d9f7d3b22bd4fd083b2536f0b1921",
+      "bytes": 2923,
+      "source": "Research/ritro/software/src/ritro/api.py"
+    },
+    "src/ritro/manifolds.py": {
+      "sha256": "a1972a48526db3a014cb1e4e902878ce7dc5aabf4222be4e69641022d1839077",
+      "bytes": 474,
+      "source": "Research/ritro/software/src/ritro/manifolds.py"
+    },
+    "src/ritro/__init__.py": {
+      "sha256": "2b23aa237c541dfbc3f6c8ea49c460f4f4aa9bff5f9f26e8ae6bf3ed496ec268",
+      "bytes": 247,
+      "source": "Research/ritro/software/src/ritro/__init__.py"
+    },
+    "src/ritro/_frozen/core.py": {
+      "sha256": "6b252c9c0318c7212649cffd636ce2367bdc8ce96889f4365c5bd477e23ddefc",
+      "bytes": 8765,
+      "source": "Research/ritro/software/src/ritro/_frozen/core.py"
+    },
+    "src/ritro/_frozen/development_solver.py": {
+      "sha256": "604ea9d5933507778f2147a5941887dd3dac8978740825e5e8097a97b0e8feb6",
+      "bytes": 22095,
+      "source": "Research/ritro/software/src/ritro/_frozen/development_solver.py"
+    },
+    "src/ritro/_frozen/fast_core.py": {
+      "sha256": "7319ac820a3469ed2e002985ad8f2dc210da309bc6130d5c78ad4170572b4dc8",
+      "bytes": 1197,
+      "source": "Research/ritro/software/src/ritro/_frozen/fast_core.py"
+    },
+    "src/ritro/_frozen/frozen_regional.py": {
+      "sha256": "652269b170810f64fdac98e1cf2e5821a4c4379f007d74a80ecccbafb1ef0f1a",
+      "bytes": 969,
+      "source": "Research/ritro/software/src/ritro/_frozen/frozen_regional.py"
+    },
+    "src/ritro/_frozen/maintenance.py": {
+      "sha256": "10e2a7eec92c78b3d444cb509364cc606bca1c2e5ed25062c54a88e6a22914d5",
+      "bytes": 11076,
+      "source": "Research/ritro/software/src/ritro/_frozen/maintenance.py"
+    },
+    "src/ritro/_frozen/manifolds.py": {
+      "sha256": "6eac2d205af4f300eecf19ed62437839fc1e0d5bb1f1e58dc4c89834cb863f66",
+      "bytes": 4479,
+      "source": "Research/ritro/software/src/ritro/_frozen/manifolds.py"
+    },
+    "src/ritro/_frozen/selected_regional.py": {
+      "sha256": "cb858faba34371d251eb97b1f4bbfaf35f5d9046d3dcae0131004d88c2e4e8d5",
+      "bytes": 922,
+      "source": "Research/ritro/software/src/ritro/_frozen/selected_regional.py"
+    },
+    "src/ritro/_frozen/solver.py": {
+      "sha256": "c0026b802650d228d75db61b3a4fea7c9487b9721a269b67b864c636fb4b6675",
+      "bytes": 13603,
+      "source": "Research/ritro/software/src/ritro/_frozen/solver.py"
+    },
+    "src/ritro/_frozen/spectral_extrema.py": {
+      "sha256": "139486a7f3c4d2e329bc2b491d6a8f3ee46ae192fe21c46fe84bf3be0b5f67d3",
+      "bytes": 2265,
+      "source": "Research/ritro/software/src/ritro/_frozen/spectral_extrema.py"
+    },
+    "src/ritro/_frozen/steps.py": {
+      "sha256": "41a9aaf580cdcf865f0ffe6a4a888532b9562fc6266b299ba714c5bb3d3658ae",
+      "bytes": 2676,
+      "source": "Research/ritro/software/src/ritro/_frozen/steps.py"
+    },
+    "src/ritro/_frozen/systematic_repair.py": {
+      "sha256": "b3ce33a363de616a0e92633765ee64aaf2342a7f731f32217341405cdcbf0866",
+      "bytes": 4017,
+      "source": "Research/ritro/software/src/ritro/_frozen/systematic_repair.py"
+    },
+    "src/ritro/_frozen/vectorized_coefficients.py": {
+      "sha256": "4f7b97ee3fc98da544b1a30a807452a4d85eb5104c10be5ce258d501b391667f",
+      "bytes": 1416,
+      "source": "Research/ritro/software/src/ritro/_frozen/vectorized_coefficients.py"
+    },
+    "src/ritro/_frozen/weighted_reuse.py": {
+      "sha256": "5f59c3ff1c9e94e2b8c6a341edafaa4c31339febb455e8429ef854ec6083c739",
+      "bytes": 4033,
+      "source": "Research/ritro/software/src/ritro/_frozen/weighted_reuse.py"
+    },
+    "src/ritro/_frozen/__init__.py": {
+      "sha256": "a50ef471dcd1df4e6832d0fb430855bcfc509267f43e51a27bf4f6847161b077",
+      "bytes": 53,
+      "source": "Research/ritro/software/src/ritro/_frozen/__init__.py"
+    },
+    "src/ritro/_geometry/additional_geometries.py": {
+      "sha256": "5c2862e8dd5f4839c9bbe456071faf40c6c4c10197e40fb27736426d5ea13875",
+      "bytes": 3283,
+      "source": "Research/ritro/software/src/ritro/_geometry/additional_geometries.py"
+    },
+    "src/ritro/_geometry/affine_spd.py": {
+      "sha256": "645461501b02814e1dd44ec22f5fcacdaae2e79ca547d3922e035d91d80175fe",
+      "bytes": 1979,
+      "source": "Research/ritro/software/src/ritro/_geometry/affine_spd.py"
+    },
+    "src/ritro/_geometry/author_stiefel.py": {
+      "sha256": "dc13d7458d0221dfaea5e0163267a602cb37c277524c2366ba7da38f08e4c064",
+      "bytes": 3128,
+      "source": "Research/ritro/software/src/ritro/_geometry/author_stiefel.py"
+    },
+    "src/ritro/_geometry/report_problems.py": {
+      "sha256": "e05ebe7830b76db21de3ae30993b300c06cf2e8caa443a64b4f289bb8a1883bc",
+      "bytes": 5457,
+      "source": "Research/ritro/software/src/ritro/_geometry/report_problems.py"
+    },
+    "src/ritro/_geometry/__init__.py": {
+      "sha256": "a22dcacb687218520638345e1db34cb0d7ee32ade287c26c8a670928dbcc9c34",
+      "bytes": 64,
+      "source": "Research/ritro/software/src/ritro/_geometry/__init__.py"
+    },
+    "reproduction/data/descent_records.json.gz": {
+      "sha256": "48a960803c564fcb91ae1bb18082f487b739a3a1ab15f1b95b7f55f21b3ac74c",
+      "bytes": 6250134,
+      "source": "Research/ritro/software/reproduction/data/descent_records.json.gz"
+    },
+    "reproduction/data/metrics.json": {
+      "sha256": "febc4c6f02278cb21366a915703a8fe3e8c7e4b12c93225e33b269fdb62fc808",
+      "bytes": 1301405,
+      "source": "Research/ritro/software/reproduction/data/metrics.json"
+    },
+    "reproduction/data/panda_results.json": {
+      "sha256": "781986731ff5baf351220936235e7507e55b046e585d052ef02a21ad90b13c67",
+      "bytes": 711666,
+      "source": "Research/ritro/software/reproduction/data/panda_results.json"
+    },
+    "benchmarks/baselines/LICENSE": {
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "source": "Research/ritro/software/benchmarks/baselines/LICENSE"
+    },
+    "benchmarks/baselines/NOTICE.md": {
+      "sha256": "9ae09fa5d415bb33baa6ffaa45cb453082dd1ebd0e2c65e6d1ad07a4b646a7ae",
+      "bytes": 1494,
+      "source": "Research/ritro/software/benchmarks/baselines/NOTICE.md"
+    },
+    "benchmarks/baselines/report_baselines.py": {
+      "sha256": "9cbf83bbd0e3f8d78292c0145bf2638fdfb05836930ad7c7fb70d14e8f7661f2",
+      "bytes": 3014,
+      "source": "Research/ritro/software/benchmarks/baselines/report_baselines.py"
+    },
+    "benchmarks/baselines/spd_metric_baselines.py": {
+      "sha256": "d9dbc1380fdfac55469b4d7aad38fa30b0585fda453a0b9ee22d807e2216348c",
+      "bytes": 2337,
+      "source": "Research/ritro/software/benchmarks/baselines/spd_metric_baselines.py"
+    },
+    "benchmarks/baselines/upstream_manifest.json": {
+      "sha256": "03ffac2e5e864d976dc7fc6e29ae0768d73f7e2606aff519eadc8d4abef300cf",
+      "bytes": 247,
+      "source": "Research/ritro/software/benchmarks/baselines/upstream_manifest.json"
+    },
+    "benchmarks/baselines/UPSTREAM_README.md": {
+      "sha256": "d7bae9bc70868f4975df0fa8cab1e06127d9824b3865b9647ea117c174e842db",
+      "bytes": 2347,
+      "source": "Research/ritro/software/benchmarks/baselines/UPSTREAM_README.md"
+    },
+    "benchmarks/baselines/__init__.py": {
+      "sha256": "d91923ad2f14a289ff41de7f450316c4682716f68a43c583dff405dfd5f4c0ca",
+      "bytes": 69,
+      "source": "Research/ritro/software/benchmarks/baselines/__init__.py"
+    },
+    "applications/panda/gabo_acquisition.py": {
+      "sha256": "d6855af717f406bfa7d618bc90f44234f1b3aed8d28a84e86b2429e1728b7bee",
+      "bytes": 5736,
+      "source": "Research/ritro/software/applications/panda/gabo_acquisition.py"
+    },
+    "applications/panda/gabo_support.py": {
+      "sha256": "456c857a9ebef1433ec5189247cad6733ce77759cb98ef6249b6aff6636c52f8",
+      "bytes": 2094,
+      "source": "Research/ritro/software/applications/panda/gabo_support.py"
+    },
+    "applications/panda/panda_impedance.py": {
+      "sha256": "79ef95298faa1ae3c37ffe84cbf93921384653ef270f0baff96be31411c6208c",
+      "bytes": 5843,
+      "source": "Research/ritro/software/applications/panda/panda_impedance.py"
+    },
+    "applications/panda/panda_paper_task.py": {
+      "sha256": "1561adf114cbb244371df5f2c57bfb67c91b136c037aacfb2fe4ffbda8d36151",
+      "bytes": 2387,
+      "source": "Research/ritro/software/applications/panda/panda_paper_task.py"
+    },
+    "applications/panda/README.md": {
+      "sha256": "01496fab343e82ac9948bf28b7653a9d5fdea540b3f87664fee1564b791654ce",
+      "bytes": 2371,
+      "source": "Research/ritro/software/applications/panda/README.md"
+    },
+    "applications/panda/run.py": {
+      "sha256": "5a070bc659efd60fbe8a0fd055a7fd5e47133a33f14c6ff970f0a9c13a9d9cbf",
+      "bytes": 6532,
+      "source": "Research/ritro/software/applications/panda/run.py"
+    },
+    "applications/panda/assets/LICENSE": {
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173,
+      "source": "Research/ritro/software/applications/panda/assets/LICENSE"
+    },
+    "applications/panda/assets/panda_original.xml": {
+      "sha256": "c047a49f3c770ff2393e2a74f7e0fbd9d99080a305407254f8ff53ac053cde3b",
+      "bytes": 14386,
+      "source": "Research/ritro/software/applications/panda/assets/panda_original.xml"
+    },
+    "applications/panda/vendor/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source": "Research/ritro/software/applications/panda/vendor/__init__.py"
+    },
+    "applications/panda/vendor/gabo/kernels_spd.py": {
+      "sha256": "10177474fd7a1c82b733cf0f2ed1a8fb0f7eea90846760662244c40f2cd49167",
+      "bytes": 11149,
+      "source": "Research/ritro/software/applications/panda/vendor/gabo/kernels_spd.py"
+    },
+    "applications/panda/vendor/gabo/LICENSE": {
+      "sha256": "615a815b8a11d2b3c6c5ef9fe288ad640b8f68107a572801cf95c06a82a7c13b",
+      "bytes": 1093,
+      "source": "Research/ritro/software/applications/panda/vendor/gabo/LICENSE"
+    },
+    "applications/panda/vendor/gabo/spd_utils_torch.py": {
+      "sha256": "3a7e0587c107553136f7a585bff5897e88c1d096f6df9cf026e67b8a1e57246f",
+      "bytes": 7945,
+      "source": "Research/ritro/software/applications/panda/vendor/gabo/spd_utils_torch.py"
+    },
+    "applications/panda/vendor/gabo/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source": "Research/ritro/software/applications/panda/vendor/gabo/__init__.py"
+    }
+  },
+  "validation": {
+    "tests_passed": 19,
+    "installed_wheel": true,
+    "sdist_rebuilt": true,
+    "compact_reading": {
+      "measurement": "tracemalloc per-input reading; CSV streamed; NPZ bytes streamed, not array analysis",
+      "input_bytes": 8263205,
+      "largest_input_bytes": 6250134,
+      "peak_reading_python_bytes": 56004705,
+      "total_input_budget_bytes": 20971520,
+      "per_input_budget_bytes": 8388608,
+      "reading_budget_bytes": 134217728
+    }
+  }
+}

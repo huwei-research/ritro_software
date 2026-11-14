@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ritro"
+version = "0.2.0"
+description = "Intrinsic interpolation trust-region optimization on Riemannian manifolds"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Wei Hu"}, {name = "Ya-Xiang Yuan"}, {name = "Pengcheng Xie"}]
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+figures = ["matplotlib>=3.7", "pymupdf>=1.23"]
+robot = ["mujoco>=3.0"]
+gabo = ["torch>=2.0", "gpytorch>=1.11", "botorch>=0.11"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ritro*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.urls]
+Repository = "https://github.com/huwei-research/ritro_software"
+Issues = "https://github.com/huwei-research/ritro_software/issues"

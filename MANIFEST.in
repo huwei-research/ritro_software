@@ -1,0 +1,7 @@
+include LICENSE CITATION.cff THIRD_PARTY.md MANIFEST.md source_manifest.json
+recursive-include examples *.py
+recursive-include docs *.md
+recursive-include benchmarks *.py *.md *.json LICENSE NOTICE*
+recursive-include reproduction *.py *.md *.json *.gz *.mplstyle
+recursive-include applications *.py *.md *.json *.xml *.obj *.stl *.png LICENSE NOTICE*
+global-exclude *.pyc *.pyo

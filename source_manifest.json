@@ -1,0 +1,368 @@
+{
+  "release": "0.2.0",
+  "algorithm": "main_20261104",
+  "manuscript": "v3.9",
+  "files": [
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/core.py",
+      "source_sha256": "6b252c9c0318c7212649cffd636ce2367bdc8ce96889f4365c5bd477e23ddefc",
+      "target": "src/ritro/_frozen/core.py",
+      "sha256": "6b252c9c0318c7212649cffd636ce2367bdc8ce96889f4365c5bd477e23ddefc",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/development_solver.py",
+      "source_sha256": "02f3d45e16f6f3ca9d89071e1123edb38e3fd1ee9fd60761c9ab0fd539b54ab7",
+      "target": "src/ritro/_frozen/development_solver.py",
+      "sha256": "604ea9d5933507778f2147a5941887dd3dac8978740825e5e8097a97b0e8feb6",
+      "changes": [
+        {
+          "old": "from core import ",
+          "new": "from .core import "
+        },
+        {
+          "old": "from fast_core import ",
+          "new": "from .fast_core import "
+        },
+        {
+          "old": "from maintenance import ",
+          "new": "from .maintenance import "
+        },
+        {
+          "old": "from spectral_extrema import ",
+          "new": "from .spectral_extrema import "
+        },
+        {
+          "old": "from steps import ",
+          "new": "from .steps import "
+        },
+        {
+          "old": "from systematic_repair import ",
+          "new": "from .systematic_repair import "
+        },
+        {
+          "old": "from weighted_reuse import ",
+          "new": "from .weighted_reuse import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/fast_core.py",
+      "source_sha256": "83232ae8f7622223db426606655e329a80ab532a9f109248f2e4b16d37250a33",
+      "target": "src/ritro/_frozen/fast_core.py",
+      "sha256": "7319ac820a3469ed2e002985ad8f2dc210da309bc6130d5c78ad4170572b4dc8",
+      "changes": [
+        {
+          "old": "from core import ",
+          "new": "from .core import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/frozen_regional.py",
+      "source_sha256": "a6606ff202346ce5d47dfd2c706218ce0ab7cd3ed43a927f8a4c13d98fbf5912",
+      "target": "src/ritro/_frozen/frozen_regional.py",
+      "sha256": "652269b170810f64fdac98e1cf2e5821a4c4379f007d74a80ecccbafb1ef0f1a",
+      "changes": [
+        {
+          "old": "from solver import ",
+          "new": "from .solver import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/maintenance.py",
+      "source_sha256": "d22497fbf92f4c367a9a61508f373b45ad403fb626a3187b6939893eb960abc5",
+      "target": "src/ritro/_frozen/maintenance.py",
+      "sha256": "10e2a7eec92c78b3d444cb509364cc606bca1c2e5ed25062c54a88e6a22914d5",
+      "changes": [
+        {
+          "old": "from core import ",
+          "new": "from .core import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/manifolds.py",
+      "source_sha256": "6eac2d205af4f300eecf19ed62437839fc1e0d5bb1f1e58dc4c89834cb863f66",
+      "target": "src/ritro/_frozen/manifolds.py",
+      "sha256": "6eac2d205af4f300eecf19ed62437839fc1e0d5bb1f1e58dc4c89834cb863f66",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/selected_regional.py",
+      "source_sha256": "92a097e20bab6500b9c81177b98891f1f186fcc73d5d0813582758b14c5b672e",
+      "target": "src/ritro/_frozen/selected_regional.py",
+      "sha256": "cb858faba34371d251eb97b1f4bbfaf35f5d9046d3dcae0131004d88c2e4e8d5",
+      "changes": [
+        {
+          "old": "from development_solver import ",
+          "new": "from .development_solver import "
+        },
+        {
+          "old": "from frozen_regional import ",
+          "new": "from .frozen_regional import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/solver.py",
+      "source_sha256": "8492dce57fe77095e60a683e014fd01611d2544420f3ed19f58bb6968d1e497b",
+      "target": "src/ritro/_frozen/solver.py",
+      "sha256": "c0026b802650d228d75db61b3a4fea7c9487b9721a269b67b864c636fb4b6675",
+      "changes": [
+        {
+          "old": "from core import ",
+          "new": "from .core import "
+        },
+        {
+          "old": "from maintenance import ",
+          "new": "from .maintenance import "
+        },
+        {
+          "old": "from steps import ",
+          "new": "from .steps import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/spectral_extrema.py",
+      "source_sha256": "139486a7f3c4d2e329bc2b491d6a8f3ee46ae192fe21c46fe84bf3be0b5f67d3",
+      "target": "src/ritro/_frozen/spectral_extrema.py",
+      "sha256": "139486a7f3c4d2e329bc2b491d6a8f3ee46ae192fe21c46fe84bf3be0b5f67d3",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/steps.py",
+      "source_sha256": "41a9aaf580cdcf865f0ffe6a4a888532b9562fc6266b299ba714c5bb3d3658ae",
+      "target": "src/ritro/_frozen/steps.py",
+      "sha256": "41a9aaf580cdcf865f0ffe6a4a888532b9562fc6266b299ba714c5bb3d3658ae",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/systematic_repair.py",
+      "source_sha256": "a085c1489507d0dfe02398a91b5298bbb2ba5d68274ff87861b1c4aca903c65d",
+      "target": "src/ritro/_frozen/systematic_repair.py",
+      "sha256": "b3ce33a363de616a0e92633765ee64aaf2342a7f731f32217341405cdcbf0866",
+      "changes": [
+        {
+          "old": "from maintenance import ",
+          "new": "from .maintenance import "
+        },
+        {
+          "old": "from weighted_reuse import ",
+          "new": "from .weighted_reuse import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/releases/main_20261104/weighted_reuse.py",
+      "source_sha256": "0a0bd5da11a8704bb0ff5cf6ea075e4baf572c0fc2901f1570571c9dd805c943",
+      "target": "src/ritro/_frozen/weighted_reuse.py",
+      "sha256": "5f59c3ff1c9e94e2b8c6a341edafaa4c31339febb455e8429ef854ec6083c739",
+      "changes": [
+        {
+          "old": "from maintenance import ",
+          "new": "from .maintenance import "
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/report_problems.py",
+      "source_sha256": "3ecbe54b017f3730f01c9885aadaa903b081d3e81c335e916ed693377d41578d",
+      "target": "src/ritro/_geometry/report_problems.py",
+      "sha256": "e05ebe7830b76db21de3ae30993b300c06cf2e8caa443a64b4f289bb8a1883bc",
+      "changes": [
+        {
+          "old": "from manifolds import Sphere, Euclidean",
+          "new": "from .._frozen.manifolds import Sphere, Euclidean"
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/author_stiefel.py",
+      "source_sha256": "dc13d7458d0221dfaea5e0163267a602cb37c277524c2366ba7da38f08e4c064",
+      "target": "src/ritro/_geometry/author_stiefel.py",
+      "sha256": "dc13d7458d0221dfaea5e0163267a602cb37c277524c2366ba7da38f08e4c064",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/affine_spd.py",
+      "source_sha256": "645461501b02814e1dd44ec22f5fcacdaae2e79ca547d3922e035d91d80175fe",
+      "target": "src/ritro/_geometry/affine_spd.py",
+      "sha256": "645461501b02814e1dd44ec22f5fcacdaae2e79ca547d3922e035d91d80175fe",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/additional_geometries.py",
+      "source_sha256": "5c2862e8dd5f4839c9bbe456071faf40c6c4c10197e40fb27736426d5ea13875",
+      "target": "src/ritro/_geometry/additional_geometries.py",
+      "sha256": "5c2862e8dd5f4839c9bbe456071faf40c6c4c10197e40fb27736426d5ea13875",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/additional_problems.py",
+      "source_sha256": "fe53816588c42f67395cde99394e938c5062b4bcc733b1e1ba626ca316e91129",
+      "target": "benchmarks/additional_problems.py",
+      "sha256": "838a7fe9befd6bdf912eea9b74142a3ccc25fb77ff43cf5e5d94aef8e31a5e76",
+      "changes": [
+        {
+          "old": "from report_problems import Product,Factor",
+          "new": "from ritro._geometry.report_problems import Product,Factor"
+        },
+        {
+          "old": "from affine_spd import SPD,spectral",
+          "new": "from ritro._geometry.affine_spd import SPD,spectral"
+        },
+        {
+          "old": "from additional_geometries import Grassmann,Hyperbolic",
+          "new": "from ritro._geometry.additional_geometries import Grassmann,Hyperbolic"
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/author_dictionary.py",
+      "source_sha256": "671988326a7ce3169d47d7c8eb75af96577c720af2f21556ad5bb5388c69d599",
+      "target": "benchmarks/dictionary.py",
+      "sha256": "cb30c5201a8d312818c6bf992d0765dcfcf14f5101394992682a9b235c5e2ac9",
+      "changes": [
+        {
+          "old": "from report_problems import Product, Factor",
+          "new": "from ritro._geometry.report_problems import Product, Factor"
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/run_seed_benchmark.py",
+      "source_sha256": "6188e3e3fe71bb4e0ccfcd3900a9ca429c3e81a53aee20b907b825c174a5e341",
+      "target": "benchmarks/original_problems.py",
+      "sha256": "02289268757dd93c2dec5400d07aeb6545d20e71e4d7d50991b381c9c8dfead6",
+      "extracted_objects": [
+        "SIZES",
+        "get_problem"
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/report_baselines.py",
+      "source_sha256": "9cbf83bbd0e3f8d78292c0145bf2638fdfb05836930ad7c7fb70d14e8f7661f2",
+      "target": "benchmarks/baselines/report_baselines.py",
+      "sha256": "9cbf83bbd0e3f8d78292c0145bf2638fdfb05836930ad7c7fb70d14e8f7661f2",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/spd_metric_baselines.py",
+      "source_sha256": "d9dbc1380fdfac55469b4d7aad38fa30b0585fda453a0b9ee22d807e2216348c",
+      "target": "benchmarks/baselines/spd_metric_baselines.py",
+      "sha256": "d9dbc1380fdfac55469b4d7aad38fa30b0585fda453a0b9ee22d807e2216348c",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/panda_impedance.py",
+      "source_sha256": "3dbf77b37b5491d782ba68b156d94a3b7f64ae94ce417d86e1183bc5496e455a",
+      "target": "applications/panda/panda_impedance.py",
+      "sha256": "79ef95298faa1ae3c37ffe84cbf93921384653ef270f0baff96be31411c6208c",
+      "changes": [
+        {
+          "old": "from report_problems import Product",
+          "new": "from ritro._geometry.report_problems import Product"
+        },
+        {
+          "old": "from author_stiefel import Stiefel",
+          "new": "from ritro.manifolds import Stiefel"
+        },
+        {
+          "old": "Path(__file__).parent/'robot_assets/panda/panda_original.xml'",
+          "new": "Path(__file__).parent/'assets/panda_original.xml'"
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/panda_paper_task.py",
+      "source_sha256": "1561adf114cbb244371df5f2c57bfb67c91b136c037aacfb2fe4ffbda8d36151",
+      "target": "applications/panda/panda_paper_task.py",
+      "sha256": "1561adf114cbb244371df5f2c57bfb67c91b136c037aacfb2fe4ffbda8d36151",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/gabo_unconstrained_recovery.py",
+      "source_sha256": "4b119b7cfc4488593753d4c3d0c98fd4e9cc57b65a544a549ded7f4ac9032e74",
+      "target": "applications/panda/gabo_acquisition.py",
+      "sha256": "d6855af717f406bfa7d618bc90f44234f1b3aed8d28a84e86b2429e1728b7bee",
+      "changes": [
+        {
+          "old": "import gabo_panda as gp",
+          "new": "import gabo_support as gp"
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/vendor/GaBOtorch/BoManifolds/kernel_utils/kernels_spd.py",
+      "source_sha256": "68d8556d917357d70ac32ba85159c336ab303788be4fbc4d201fe7b62901201c",
+      "target": "applications/panda/vendor/gabo/kernels_spd.py",
+      "sha256": "10177474fd7a1c82b733cf0f2ed1a8fb0f7eea90846760662244c40f2cd49167",
+      "changes": [
+        {
+          "old": "from BoManifolds.Riemannian_utils.spd_utils_torch import",
+          "new": "from .spd_utils_torch import"
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/vendor/GaBOtorch/BoManifolds/Riemannian_utils/spd_utils_torch.py",
+      "source_sha256": "3a7e0587c107553136f7a585bff5897e88c1d096f6df9cf026e67b8a1e57246f",
+      "target": "applications/panda/vendor/gabo/spd_utils_torch.py",
+      "sha256": "3a7e0587c107553136f7a585bff5897e88c1d096f6df9cf026e67b8a1e57246f",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/vectorized_coefficients.py",
+      "source_sha256": "037cadc02b31295cc448238de8548bca2f3256af3129325f0c2a7bdfa2073155",
+      "target": "src/ritro/_frozen/vectorized_coefficients.py",
+      "sha256": "4f7b97ee3fc98da544b1a30a807452a4d85eb5104c10be5ce258d501b391667f",
+      "changes": [
+        {
+          "old": "    import core",
+          "new": "    from . import core"
+        },
+        {
+          "old": "    import fast_core",
+          "new": "    from . import fast_core"
+        }
+      ]
+    },
+    {
+      "source": "prototypes/transported_mfn/gabo_panda.py",
+      "source_sha256": "973277cd9e45359b817f552b18ebee6bf78dee5e1ae1a8d6cc3e41fffc86f32a",
+      "target": "applications/panda/gabo_support.py",
+      "sha256": "456c857a9ebef1433ec5189247cad6733ce77759cb98ef6249b6aff6636c52f8",
+      "extracted_objects": [
+        "distance",
+        "matrix",
+        "logs",
+        "sample"
+      ],
+      "changes": "Package imports and removal of unused old campaign entry points; compatibility patch and numerical constants retained."
+    },
+    {
+      "source": "prototypes/transported_mfn/robot_assets/panda/panda_original.xml",
+      "source_sha256": "c047a49f3c770ff2393e2a74f7e0fbd9d99080a305407254f8ff53ac053cde3b",
+      "target": "applications/panda/assets/panda_original.xml",
+      "sha256": "c047a49f3c770ff2393e2a74f7e0fbd9d99080a305407254f8ff53ac053cde3b",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/robot_assets/panda/LICENSE",
+      "source_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "target": "applications/panda/assets/LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "changes": []
+    },
+    {
+      "source": "prototypes/transported_mfn/vendor/GaBOtorch/LICENSE",
+      "source_sha256": "615a815b8a11d2b3c6c5ef9fe288ad640b8f68107a572801cf95c06a82a7c13b",
+      "target": "applications/panda/vendor/gabo/LICENSE",
+      "sha256": "615a815b8a11d2b3c6c5ef9fe288ad640b8f68107a572801cf95c06a82a7c13b",
+      "changes": []
+    }
+  ]
+}

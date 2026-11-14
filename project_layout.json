@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project_id": "ritro",
+  "role": "delivery",
+  "source_root": "Research/ritro",
+  "consolidation_status": "aligned",
+  "research_state": "Research/ritro/STATE.md",
+  "research_log": "Research/ritro/research_log.md",
+  "version_index": "Research/ritro/paper/versions.json",
+  "entries": {
+    "solver": "software",
+    "experiments": "prototypes/transported_mfn",
+    "manuscripts": "paper",
+    "results": "results"
+  },
+  "path_base": "workspace_root",
+  "policy": "research_harness/policies/research_delivery_layout.md",
+  "repositories": [
+    {
+      "path": "Research/ritro",
+      "role": "研究主仓",
+      "maintenance": "source"
+    },
+    {
+      "path": "Publish/ritro_paper",
+      "role": "确定版本的COAP与arXiv论文交付",
+      "maintenance": "delivery"
+    },
+    {
+      "path": "Public/ritro",
+      "role": "确定版本的软件与精简复现数据交付",
+      "maintenance": "delivery"
+    }
+  ]
+}

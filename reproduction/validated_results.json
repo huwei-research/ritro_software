@@ -1,0 +1,233 @@
+{
+  "manuscript": "v3.9",
+  "new_objective_evaluations": 0,
+  "numeric_artist_count": 218,
+  "numeric_arrays_match": true,
+  "profiles": [
+    {
+      "view": "tuned",
+      "tolerance": 0.001,
+      "success": [
+        261,
+        253,
+        236
+      ],
+      "fastest": [
+        96,
+        157,
+        17
+      ],
+      "within_two": [
+        217,
+        245,
+        76
+      ]
+    },
+    {
+      "view": "tuned",
+      "tolerance": 1e-05,
+      "success": [
+        253,
+        236,
+        216
+      ],
+      "fastest": [
+        152,
+        103,
+        7
+      ],
+      "within_two": [
+        225,
+        210,
+        54
+      ]
+    },
+    {
+      "view": "tuned",
+      "tolerance": 1e-07,
+      "success": [
+        251,
+        223,
+        211
+      ],
+      "fastest": [
+        162,
+        92,
+        5
+      ],
+      "within_two": [
+        221,
+        178,
+        37
+      ]
+    },
+    {
+      "view": "default",
+      "tolerance": 0.001,
+      "success": [
+        261,
+        253,
+        222
+      ],
+      "fastest": [
+        107,
+        159,
+        10
+      ],
+      "within_two": [
+        217,
+        242,
+        70
+      ]
+    },
+    {
+      "view": "default",
+      "tolerance": 1e-05,
+      "success": [
+        251,
+        236,
+        217
+      ],
+      "fastest": [
+        149,
+        104,
+        7
+      ],
+      "within_two": [
+        215,
+        208,
+        49
+      ]
+    },
+    {
+      "view": "default",
+      "tolerance": 1e-07,
+      "success": [
+        250,
+        223,
+        209
+      ],
+      "fastest": [
+        160,
+        93,
+        6
+      ],
+      "within_two": [
+        213,
+        179,
+        34
+      ]
+    }
+  ],
+  "descents": {
+    "source": "data\\descent_records.json.gz",
+    "sha256": "48a960803c564fcb91ae1bb18082f487b739a3a1ab15f1b95b7f55f21b3ac74c",
+    "quantile_sha256": {
+      "dictionary_3_6_1/selected": "0e423fbc926884d8ee0e2fee8b788fb1154c6c080b6060687ee9d76285ffc549",
+      "dictionary_3_6_1/int_rfd": "e6c5104e0f1cce507efbb3283ef837006459040c4148334501bd564255d5b20a",
+      "dictionary_3_6_1/rdse_sb": "f7f80be76d634d709875e39eb44f9256a028001636f799e6b4ae5b376f41fefb",
+      "grassmann_5_2/selected": "86cdab3358dd30e35e1e18795717342870b8b1e7c546d0cf706cea7687e5a502",
+      "grassmann_5_2/int_rfd": "f79538b190a5f81afb69f0468326774b7428935ec05ab0920d6c36c65262528e",
+      "grassmann_5_2/rdse_sb": "e1a6d3f3c6160c036ec75676fd317acc16801a61c0bb9b811797514e18bb6859",
+      "hyperbolic_6/selected": "9dd539fdc77cac73afd8921936d576a5ebbb8570fa03ddfe65a792a2f9cb4164",
+      "hyperbolic_6/int_rfd": "f00a1955fae72d003383bc2ac2e4a1c198f7f411efd123901b0a31a897db51a4",
+      "hyperbolic_6/rdse_sb": "b3abf12e26ab1bc5a4bccf8a2783e577de46e49e6c3eb4c21d724cbe0d7f5fc0",
+      "procrustes_6_2/selected": "c4bb80c885a37e760ea6df51ba5f3d5b78303db401e0b8e7b51f4a8b5f8e1452",
+      "procrustes_6_2/int_rfd": "444955c556357237102171b80fd8fa3a1f4f39e51de965f0bb131bd1c884f3bd",
+      "procrustes_6_2/rdse_sb": "9c76d48e8c79237c93d353a271dfe76e4b7f45e0da79a34e51238ff63cb20e6e",
+      "rotation_3/selected": "1716ebb222c105934e4d4e6ca08483a2e745df4a8b76a83993de89f5930412d0",
+      "rotation_3/int_rfd": "17eabf552478db359df87988159efdeb04e31778d941d7617f12395fc63aadd8",
+      "rotation_3/rdse_sb": "5c34800df50c904e25007d5cab19b504b5e858e32fd023a52b6f4d305b6e0a34",
+      "singular_3_3_2/selected": "c37978ed331dd37befc495e690164d919f561f5e96925dc0001c36019fc07dbf",
+      "singular_3_3_2/int_rfd": "2af55ff96e5c895c0bcddf6fd4e9c689715804c389e6e69c2afe4201a8f640fb",
+      "singular_3_3_2/rdse_sb": "d58b13dd6146c29f80752f595fb2282d79be7aeb1271332f4a67985f5c8e9dbb",
+      "spd_mean_3/selected": "29340834973f975d85a38ec9b75d0992a8346cad92d63e432c5015c1c201453f",
+      "spd_mean_3/int_rfd": "950652b0101472731b753150382092c4a5a6eb82b51f7741f7f2744c4d8d93b4",
+      "spd_mean_3/rdse_sb": "10c0ee5d515e50b5aa9fc6f48d2a8d368c7619e562fec51867278f126c348ff9",
+      "sphere_8/selected": "ded387fefc0905db8f697f441276252e7ff2879538bbb4a8f1ad55ccca25a8aa",
+      "sphere_8/int_rfd": "e0998e273c80b14bfa059e75d41dffc891aaf211643b140727f4680491a576aa",
+      "sphere_8/rdse_sb": "0af800fc50fb005f4a34e5b19bcc8afecc3c3faae136d5fb3b029e0824731774",
+      "torus_8/selected": "65527dd53eea15d2c11152ab990a786b318cecdc22133f7779dc0b7204a05dfb",
+      "torus_8/int_rfd": "b79d8c99c809fca8260689f1101ead2869cc466749eb1ce6ccae7eed8880e06c",
+      "torus_8/rdse_sb": "d72ddcfe4046179fa0ebd9da53b47101b2e14dd2678cf9242512fa25a3beda75",
+      "dictionary_3_5_2/selected": "3b4bb5470dfbb70dd1ad25e09075df11d2ef245b2739da0677bf192433b07def",
+      "dictionary_3_5_2/int_rfd": "11d3791df305f7faf70edb4976a8c2ccf741b3b2f7b11fa637ad134e873930c9",
+      "dictionary_3_5_2/rdse_sb": "5d4fb09d71030f06d9be122cdcd9da6b1f43c4ce5f89859bf40b9df2d6ba6987",
+      "grassmann_9_2/selected": "95b276a518e6761f06625789e57c3429fb37d9c5c2ad5968b8031b5c7866af5e",
+      "grassmann_9_2/int_rfd": "69952f98b927a2c9a35a6f31e902c416936841d77b5fcdd232bce21f58d3d5cb",
+      "grassmann_9_2/rdse_sb": "29eeb2457b3d6d8695cb18f3a1e4382aae53ecfbdfb79df244458ca7c8c7adde",
+      "hyperbolic_14/selected": "f2ca091b834b12c1fdb10e41122c67e7da37d0e25ac4e1f7caf724feaab3dc66",
+      "hyperbolic_14/int_rfd": "8714fc04887d9b1569b4810bed0fdbb2396733ec64a3d445fb122d757a293ce7",
+      "hyperbolic_14/rdse_sb": "fa4f0d9cef23c4a2315878bfafa56e210c8debee742d449d70c3f6ee4f109647",
+      "procrustes_10_2/selected": "901430cd9cce037a891245bb7b4e9ebed307883ffe9309986f22eb6b6a83eb23",
+      "procrustes_10_2/int_rfd": "288132025bac91bc65992046867bcab8b6db866ad414b0f17ae44a5fc87c84b8",
+      "procrustes_10_2/rdse_sb": "faf942f87ef242fe5623b7475a03e5a6235185a36c7495574c1dcd7f3cfa4ea2",
+      "rotation_6/selected": "db45192dc09e8bedd4e8f2ab5df705c59cd915619d1e7e1698b67f9956683b24",
+      "rotation_6/int_rfd": "d35b98543bcf6f3581827f31d77e5b3bf468cdf143cceb772219ce43749f701e",
+      "rotation_6/rdse_sb": "57672060a5256ea70aab4ab4ce5eee0fc24fecf695c98f9752d320b3364975c1",
+      "singular_5_5_2/selected": "063c1463c802117920b040885919e0ef57e4ea049ee3d22024d8c2de1dbe3015",
+      "singular_5_5_2/int_rfd": "9f25bf0c4d817b5ae3614fb498a41ce30c366edf3de02fbc1743b4fd53dffcdf",
+      "singular_5_5_2/rdse_sb": "06fb45961fa614bc871de6baf0b3db45b31abf1a8e0fc36d05f8aa6034cfe4ef",
+      "spd_mean_5/selected": "6bc8748630f31d27bcabae1659b6114b32fd179565502a1245a199b5b9d5884e",
+      "spd_mean_5/int_rfd": "94fcce3d2be813d647d99d5405ce33a0f0201ef89a5e8b67ed84cb8ec38d078f",
+      "spd_mean_5/rdse_sb": "1b09a85944decb36be7f5be0162bae693b81e4534ec71bf44591935e381478af",
+      "sphere_16/selected": "ec8c52f9367a8de059e5ab150dbdd13205fce8cc34cead0f0e9b655852b5d92f",
+      "sphere_16/int_rfd": "61f8f38a727e2a375e15131f526fd5a6494d78288e86c61d0b057155277ac015",
+      "sphere_16/rdse_sb": "1c311b8beff554b0db200852add647e4442c7dfcfda5e18a0133f24bc56378a3",
+      "torus_16/selected": "d831edf442aa1ba752bd1b98d99cb5dd6362459485f9c91664b0c66a4b4a4e04",
+      "torus_16/int_rfd": "22f70d36e73f61802ca58872de017fe4718d190eed2416af1acca560a7050fab",
+      "torus_16/rdse_sb": "9bb6eac71ae9e02d4547b0e7729a11055ee8c32c86bf8f431175538b6d190f81",
+      "dictionary_4_6_3/selected": "30073f8af8a53ded82847c3b6046604934b7f324bfb3219054b398e44f0103d5",
+      "dictionary_4_6_3/int_rfd": "29c37ec8cfb385078b5d303216539984d7303826087e83e2405ccbf99484bff2",
+      "dictionary_4_6_3/rdse_sb": "1b47a41378dbb4a075a908594b157bd8ceb3673f9c67d60ca88693b5dedfaf5a",
+      "grassmann_11_3/selected": "c2554192a6b46b138379df692b152670172152c6766f97f2371e5b11d496ad40",
+      "grassmann_11_3/int_rfd": "f6e84fb3f96abed6bfbe4155ff4dfb3baae23c59f72b6903a6362ef9a47579c6",
+      "grassmann_11_3/rdse_sb": "b51df1a09f458707796fb4a2392489002728b9e99ffa20e395001b00643d9093",
+      "hyperbolic_24/selected": "26f5246dc201ed22afd8c2c1cc83a0506d2ea7e02a6f81a72975403bec38fdfb",
+      "hyperbolic_24/int_rfd": "9eb314fcc21a393f17b5d9fd9d4b772922608009528d9de0e0f048babb22724e",
+      "hyperbolic_24/rdse_sb": "5f7b08f53a73e4f2c7f13ffec02981f8d210ad11456001a5a652c01fb7185424",
+      "procrustes_10_3/selected": "4f85adda7f16c87ff149345295d88a6bfd109cc45f91c5aab86d7b3eb8fb1610",
+      "procrustes_10_3/int_rfd": "ad8d01a6d8cbb174715f55fadbd1b2f751a4479661fed6d2b1be47c09446e288",
+      "procrustes_10_3/rdse_sb": "65ee4325cfb968df62c2daf5e0f3eb3ddc6cb32b9d4781bbcacfb4ff146646f6",
+      "rotation_10/selected": "97361aba7385e8f025917e4355733b16558dea99ce772143bb07e004fadd9a43",
+      "rotation_10/int_rfd": "efa0b0020fdd6219454b50b28c689559e2a0c2244270ba0cfaccdc47b86ea31e",
+      "rotation_10/rdse_sb": "060d8a3bb41721ef66ee424697f1ec27b3b13961f9cf1029bc56717ca72b6a8a",
+      "singular_7_7_2/selected": "157ebd7d8c5ea3b271b146d836bfa090d9d0a4eaa0200f66809d66b1b77a8137",
+      "singular_7_7_2/int_rfd": "2b82777eb4b94f21e5e35a1a5b217b0925b9e6b03fe0fba2562fbb93c572b789",
+      "singular_7_7_2/rdse_sb": "293c0439b75066361b196c10bfc48fb4df64b8a44da4c6a3aa26466a8b5fb8a9",
+      "spd_mean_7/selected": "3c921618c1fb59454018241f361d4c42781b230ba69201968282fe1cae75fd34",
+      "spd_mean_7/int_rfd": "edb943f8d7f784da4b5039fd745bade5459b9f8565fcc773069f9b6a7add6ce9",
+      "spd_mean_7/rdse_sb": "aa29312862ff0b83b250a4301779c95bcf6c2859ea62087cbe2a0b20a124a948",
+      "sphere_24/selected": "160f9ab4b7a1f7aef07711b414465e8b2ade65f35a2d174f24ba719bb5703e7b",
+      "sphere_24/int_rfd": "9021381f7e520d571970b419cf04aa75bf79e059710a9d89b5b256c753621dd0",
+      "sphere_24/rdse_sb": "02703bede0d235bb3103632e786512fb0961d48e54061e7d60f9135ed2725e5c",
+      "torus_24/selected": "5f00c121c061324b4e7b5faf3159743245c5b0f54f51a69a0bd778ce234dbc17",
+      "torus_24/int_rfd": "568a8ab886a5922e92b9ee05747eb5c552572741f022def59c4884a48be5ed9a",
+      "torus_24/rdse_sb": "821b9f88b01e50660c6b23e258667fe4da56926f959c9c3c3eee43a28f3f74a1"
+    },
+    "display_floor": 1e-09
+  },
+  "panda": {
+    "source": "data\\panda_results.json",
+    "sha256": "781986731ff5baf351220936235e7507e55b046e585d052ef02a21ad90b13c67",
+    "quantile_sha256": {
+      "selected/incumbent_cost": "2de2eafa63b00be82f40fa70c9f3028155d1b25749f9572cae3c4b762a7bf670",
+      "selected/incumbent_late_rms_mm": "5f55016cdbc2a4fd694240defa12b389feb157cc2219c8b93a66404af6dae405",
+      "int_rfd/incumbent_cost": "cc247e3e54a1d6d350433caf92a038d1aa189f2d7ab55af4c7016caf21316b30",
+      "int_rfd/incumbent_late_rms_mm": "0c1261021ba264bd85356c97cc1dd1fc7293992ba913b67250db9298f5711e87",
+      "gabo_port/incumbent_cost": "73fe79056d20d3136436e3c1a358b79451ac8c157d5158e5fd27c2ef8ecb361f",
+      "gabo_port/incumbent_late_rms_mm": "a208004b3634a27cf00928e7e604ac85fc9793e29787f95a228cfa0974160e71"
+    },
+    "representative_seed": 4201
+  },
+  "data_reader_peak_python_bytes": {
+    "metrics.json": 5442572,
+    "descent_records.json.gz": 56009364,
+    "panda_results.json": 2067445
+  },
+  "memory_scope": "tracemalloc peak for one JSON input at a time; excludes imported libraries and complete plotting RSS",
+  "numpy_version": "2.3.2",
+  "matplotlib_version": "3.10.9",
+  "tex_text": true,
+  "figures_written": true
+}
