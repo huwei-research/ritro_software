@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the accompanying RITRO manuscript when using this software."
 title: "RITRO: intrinsic interpolation trust-region optimization"
 type: software
-version: 0.2.0
+version: 0.2.1
 date-released: 2026-11-14
 license: MIT
 authors:

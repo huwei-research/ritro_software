@@ -11,8 +11,8 @@
       "source": "Research/ritro/software/.gitignore"
     },
     "CITATION.cff": {
-      "sha256": "7279d07921e231a25ca2d78c7477545d308f9dd5a291a7905f99f60181e76fea",
-      "bytes": 782,
+      "sha256": "aacf0b1ec6d40fbd0649d6287e6acf5b4683729db074b8b7673ca2fa25dd9836",
+      "bytes": 808,
       "source": "Research/ritro/software/CITATION.cff"
     },
     "LICENSE": {
@@ -21,8 +21,8 @@
       "source": "Research/ritro/software/LICENSE"
     },
     "MANIFEST.in": {
-      "sha256": "0869ccf159ade5b35497d1010724c97eb1997aa09eb677a17c964ead953cb08e",
-      "bytes": 378,
+      "sha256": "c9c2bb77098b62dabb3545b5199b937085fe279c2433b208594732059da2f642",
+      "bytes": 409,
       "source": "Research/ritro/software/MANIFEST.in"
     },
     "MANIFEST.md": {
@@ -31,12 +31,12 @@
       "source": "Research/ritro/software/MANIFEST.md"
     },
     "pyproject.toml": {
-      "sha256": "f675bc2091e1cbf347b165e99450da7a916ffee22874b075f76ded3407c20936",
+      "sha256": "5d9bc774cf46632a063027dbbf04e1d6bed03f2beebf389037846003bda4a4c4",
       "bytes": 1123,
       "source": "Research/ritro/software/pyproject.toml"
     },
     "README.md": {
-      "sha256": "a4c069d1ea409f5526e2954c310ce2f4f9776ac69bf74a21ac2edd5458c7bd60",
+      "sha256": "8cc57ac3313aef000d64764a831a243252f3045e97ebd76e449ba1e0544b9bcc",
       "bytes": 4884,
       "source": "Research/ritro/software/README.md"
     },
@@ -151,8 +151,8 @@
       "source": "Research/ritro/software/src/ritro/manifolds.py"
     },
     "src/ritro/__init__.py": {
-      "sha256": "2b23aa237c541dfbc3f6c8ea49c460f4f4aa9bff5f9f26e8ae6bf3ed496ec268",
-      "bytes": 247,
+      "sha256": "68b4f70839054b258fcc6db7fcc1f41785f3939de600c428005b7238cf251d8c",
+      "bytes": 253,
       "source": "Research/ritro/software/src/ritro/__init__.py"
     },
     "src/ritro/_frozen/core.py": {
@@ -364,6 +364,11 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "source": "Research/ritro/software/applications/panda/vendor/gabo/__init__.py"
+    },
+    ".gitattributes": {
+      "sha256": "8e00318bbae89bc26af46d6208b5db2cd3875d0db1fa76cd95d64a9b76296d94",
+      "bytes": 86,
+      "source": "Research/ritro/software/.gitattributes"
     }
   },
   "validation": {
@@ -379,5 +384,7 @@
       "per_input_budget_bytes": 8388608,
       "reading_budget_bytes": 134217728
     }
-  }
+  },
+  "source_version": "0.2.1",
+  "git_storage": "exact original bytes; no line-ending conversion"
 }

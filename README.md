@@ -7,7 +7,7 @@ controls the inherited model through a regional bound.
 
 This distribution accompanies *An intrinsic interpolation trust-region method
 for Riemannian derivative-free optimization* by Wei Hu, Ya-Xiang Yuan and
-Pengcheng Xie (manuscript v4.0; numerical results unchanged from v3.9). Version 0.2.0 packages the frozen
+Pengcheng Xie (manuscript v4.0; numerical results unchanged from v3.9). Version 0.2.1 packages the frozen
 `main_20261104` implementation used by the manuscript. The earlier 0.1.0
 research package has a different implementation.
 

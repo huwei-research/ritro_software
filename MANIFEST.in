@@ -1,3 +1,4 @@
+include .gitattributes
 include LICENSE CITATION.cff THIRD_PARTY.md MANIFEST.md source_manifest.json
 recursive-include examples *.py
 recursive-include docs *.md
