@@ -2,7 +2,7 @@
   "project": "ritro",
   "source_root": "Research/ritro",
   "exported_at": "2026-11-14T22:15:05.386751+08:00",
-  "status": "verified_for_publication",
+  "status": "published",
   "repository": "https://github.com/huwei-research/ritro_software",
   "files": {
     ".gitignore": {
@@ -386,5 +386,9 @@
     }
   },
   "source_version": "0.2.1",
-  "git_storage": "exact original bytes; no line-ending conversion"
+  "git_storage": "exact original bytes; no line-ending conversion",
+  "release_url": "https://github.com/huwei-research/ritro_software/releases/tag/v0.2.1",
+  "release_tag": "v0.2.1",
+  "release_commit": "39a88e57fa5fc005de48689633424affb3251ebe",
+  "remote_clone_verified": true
 }
